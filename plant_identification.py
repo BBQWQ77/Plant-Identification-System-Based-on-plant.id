@@ -2,7 +2,7 @@ from datetime import datetime
 from kindwise import PlantApi, PlantIdentification, ClassificationLevel
 import re
 
-api = PlantApi(api_key='AVAEb4BoPSjm9LMGaQ0E4AWDQbbdKf6NflgeFleW6XWSmK5vrM')
+api = PlantApi(api_key='your own api_key')
 
 
 def identify_plant(image_path, classification_level=ClassificationLevel.SPECIES):
